@@ -19,8 +19,8 @@ const cards = [
     new Card(9),
 ];
 let clicked = true;
-const winText = "Перемога";
-const defeatText = "Поразка";
+const winText = "Win";
+const defeatText = "Defeat";
 function renderSquares (cards) {
     
         const squareContainer = document.querySelector(".squares-container");
